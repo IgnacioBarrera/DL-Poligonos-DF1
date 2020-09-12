@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con polígonos</title>
+</head>
+<body>
+    <!-- RECTANGULO -->
+    <h4>Rectángulo ES5</h4>
+    <p>
+        <label>Seleccione la operacion a realizar: </label>
+        <select id="operaR">
+            <option>area</option>
+            <option>perimetro</option>
+        </select>
+        <br>
+        <small>Las operaciones son: area o perimetro.</small>
+    </p>
+    <p>
+        <label>Valor del largo: </label>
+        <input type="text" id="r1">
+    </p>
+    <p>
+        <label>Valor del ancho: </label>
+        <input type="text" id="r2">
+    </p>
+    <button id="calcularR">Calcular</button>
+    <div>
+        <p>El resultado es: <span id="resultadoR"></span></p>
+    </div>
+    <!-- TRIANGULO RECTANGULO-->
+    <h4>Triángulo Rectángulo ES5</h4>
+    <p>
+        <label>Seleccione la operacion a realizar: </label>
+        <select id="operaTR">
+            <option>area</option>
+            <option>perimetro</option>
+        </select>
+        <br>
+        <small>Las operaciones son: area o perimetro.</small>
+    </p>
+    <p>
+        <label>Valor de base: </label>
+        <input type="text" id="tr1">
+    </p>
+    <p>
+        <label>Valor de altura: </label>
+        <input type="text" id="tr2">
+    </p>
+    <button id="calcularTR">Calcular</button>
+    <div>
+        <p>El resultado es: <span id="resultadoTR"></span></p>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
